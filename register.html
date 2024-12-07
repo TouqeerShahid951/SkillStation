@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SignUp Screen</title>
+		<link rel="stylesheet" href="register.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<form action="register.php" method="POST">
+			<h3>Register Here</h3>
+
+			<label for="name">Name</label>
+			<input
+				type="text"
+				placeholder="Name"
+				id="name"
+				name="name"
+				autocomplete="off"
+				required
+			/>
+
+			<label for="email">Email</label>
+			<input
+				type="email"
+				placeholder="Email"
+				id="email"
+				name="email"
+				autocomplete="off"
+				required
+			/>
+
+			<label for="password">Password</label>
+			<input
+				type="password"
+				placeholder="Password"
+				id="password"
+				name="password"
+				autocomplete="off"
+				required
+			/>
+
+			<button type="submit">Register</button>
+
+			<a class="rg" href="Login.html"><div class="reg">Login</div></a>
+			<a class="fp1" href="#"><div class="fp">Forgot Password?</div></a>
+		</form>
+	</body>
+</html>
